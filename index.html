@@ -12,6 +12,43 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/animations.css">
 
 	<body>
+		<!-- <div class="row">
+			<div class="col m12 s12">
+				<div class="row">
+					<div class="col m2 center">
+						<h4 class="levenim" style="color: black">
+							<i class="material-icons medium">brightness_3</i>
+						</h4>
+					</div>
+					<div class="col m2 center">
+						<h4 class="levenim" style="color: black">
+							Item
+						</h4>
+					</div>
+					<div class="col m2 center">
+						<h4 class="levenim" style="color: black">
+							Item
+						</h4>
+					</div>
+					<div class="col m2 center">
+						<h4 class="levenim" style="color: black">
+							Item
+						</h4>
+					</div>
+					<div class="col m2 center">
+						<h4 class="levenim" style="color: black">
+							Item
+						</h4>
+					</div>
+					<div class="col m2 center">
+						<h4 class="levenim" style="color: black">
+							Item
+						</h4>
+					</div>
+				</div>
+			</div>
+		</div> -->
+
 		<div class="full-screen">
 			<div class="row">
 				<div class="col m12 s12">
@@ -28,7 +65,7 @@
 			<div class="bg-lazy" data-src='assets/img/city2.jpg'></div>
 
 			<div class="row">
-				<div class="col m6 s12 center">
+				<div class="col m6 s12 center push-m6">
 					<div class="row">
 						<div class="col m12 s12 center">
 							<div class="profile-container">
@@ -52,7 +89,7 @@
 					</div>
 				</div>
 
-				<div class="col m6 s12 center">
+				<div class="col m6 s12 center pull-m6">
 					<div class="row">
 						<div class="col m12 s12 center">
 
@@ -161,7 +198,7 @@
 		<section class="tabelas">
 			<div class="row">
 				<div class="col m12 s12">
-					<table>
+					<table class="striped">
 						<thead>
 							<th>
 								<h5 class="brandon_l">
@@ -203,13 +240,49 @@
 									</h6>
 								</td>
 							</tr>
+							<tr>
+								<td>
+									<h6 class="brandon_r">
+										CSS 3
+									</h6>
+								</td>
+
+								<td>
+									<h6 class="brandon_r">
+										Seletores, sintaxe
+									</h6>
+								</td>
+							</tr>
 						</tbody>
 					</table>
 				</div>
 			</div>
 		</section>
+
+		<div class="row">
+			<div class="col m12 s12">
+				<div class="parallax-container">
+					<div class="parallax">
+						<img src="assets/img/romain_trystam_city_midnight.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 	</body>
 
 	</html>
 	<script src="js/effects.js"></script>
 	<script src="js/lazyload.js"></script>
+	<script src="js/functions.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			$('.parallax').parallax();
+		});
+	</script>

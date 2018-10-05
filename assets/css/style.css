@@ -300,7 +300,7 @@ html,body{
 
 
 h1,h2,h3,h4,h5,h6{
-	opacity: 0;
+	/* opacity: 0; */
 }
 
 span.titulo{
@@ -649,7 +649,7 @@ section.historico .m7{
 /*TABELA*/
 
 
-table{
+/* table{
 	background-color: var(--main-bg);
 	animation: fadeInUp 1s ease;
 }
@@ -662,10 +662,10 @@ table tr, th{
 tr,th,td{
 	border-radius: 0 !important;
 	font-size: 11pt;
-	/* animation: fadeInLeft 1s ease; */
-}
+	/* animation: fadeInLeft 1s ease;
+}*/
 
-th,td{
+/* th,td{
 	width: 50%;
 }
 
@@ -678,16 +678,16 @@ table thead th{
 table tbody tr:nth-child(odd){
 	background-color: rgba(0,0,0,.05);
 	color: #333;
-}
+} */
 
 /* table tbody tr:nth-child(even){
 	background-color: rgba(255,255,255,.5);
 	color: black;
 } */
 
-table tbody tr td{
+/* table tbody tr td{
 	text-align: center;
-}
+} */
 
 
 /*LISTA*/
@@ -833,7 +833,7 @@ a i{
 
 
 .parallax-container{
-	/*height: 900px !important;*/
+	height: 900px !important;
 	width: 100%;
 	position: absolute !important;
 	margin-bottom: 0 !important;
@@ -845,7 +845,7 @@ a i{
 }
 
 .parallax{
-	/*height: 750px !important;*/
+	height: 1000px !important;
 	width: 100% !important;
 }
 
